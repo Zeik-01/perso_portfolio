@@ -131,6 +131,15 @@ h2::after {
   transition: border-color .2s, transform .2s;
 }
 
+.project-card h3 a {
+  color: var(--text);
+  text-decoration: none;
+  transition: color .2s;
+}
+
+.project-card h3 a:hover {
+  color: var(--accent);
+}
 .project-card:hover { border-color: var(--accent); transform: translateY(-4px); }
 
 .project-img {
