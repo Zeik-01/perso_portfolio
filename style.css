@@ -33,8 +33,15 @@ nav {
 
 .logo {
   font-family: 'Playfair Display', serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: var(--accent);
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 nav ul { list-style: none; display: flex; gap: 2rem; }
